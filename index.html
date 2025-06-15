@@ -9,13 +9,21 @@
 </head>
 <body>
     <h1>Rock, Paper, Scissors</h1>
-    <button id="rock">Rock</button>
-    <button id="paper">Paper</button>
-    <button id="scissor">Scissor</button>
-    <p id="userChoice">Your choice:</p>
-    <p id="computerChoice">Computer choice:</p>
+    <div class="btns">
+    <button id="rock"><img src="./images/rock.png" alt="rock"><span class="text">Rock</span></button>
+    <button id="paper"><img src="./images/paper.png" alt="paper"><span class="text">Paper</span></button>
+    <button id="scissor"><img src="./images/scissors.png" alt="scissor"><span class="text">Scissors</span></button>
+    </div>
+    <div class="results">
+    <div class="first">
+        <p id="userChoice">Your choice:</p>
+        <p id="computerChoice">Computer choice:</p>
+    </div>
     <p id="result">Click on your choice to begin</p>
-    <p id="userScore">Your score:<span id="yourScore"></span></p>
-    <p id="compScore">Computer score:<span id="computerScore"></span></p>
+    <div class="score">
+        <p id="userScore">Your score:<span id="yourScore"></span></p>
+        <p id="compScore">Computer score:<span id="computerScore"></span></p>
+    </div>
+    </div>
 </body>
 </html>
